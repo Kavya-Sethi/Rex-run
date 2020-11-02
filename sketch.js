@@ -176,7 +176,7 @@ function spawnClouds(){
      console.log(cloud.depth);
    cloud.depth=trex.depth;   
    trex.depth=trex.depth+1;
-   cloud.lifetime=200;
+   cloud.lifetime=width/3;
    
    cloudsGroup.add(cloud);
  }
@@ -214,7 +214,7 @@ function spawnProblems(){
     }
    obstacle.scale=0.5;
   obstacle.velocityX=-(6+score/100);
-    obstacle.lifetime=100;
+    obstacle.lifetime=width/(6+score/100);
     obstaclesGroup.add(obstacle);
   }
   
