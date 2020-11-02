@@ -151,6 +151,7 @@ console.log(trex.y);
    trex.changeAnimation("crash");
     obstaclesGroup.setLifetimeEach(-1);
     cloudsGroup.setLifetimeEach(-1);
+    score=0;
     
        gameOver.visible=true;
        re.visible=true;
